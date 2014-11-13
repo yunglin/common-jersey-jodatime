@@ -1,0 +1,13 @@
+*/*.iws
+*/*.ipr
+*/*.iml
+.idea/*
+log/*
+log/**/*
+*/target/*
+*/target/**/*
+*/webapp/stylesheets/compass/main/stylesheets/*
+.DS_Store
+fliptop-api/src/main/webapp/stylesheets/compass/main/stylesheets/*
+fliptop-snapshot.ipr
+fliptop-snapshot.iws
