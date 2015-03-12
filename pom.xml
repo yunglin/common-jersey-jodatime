@@ -7,7 +7,7 @@
 
   <groupId>tw.hyl.common</groupId>
   <artifactId>jersey-jodatime</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <parent>
     <groupId>tw.hyl.common</groupId>
@@ -19,7 +19,7 @@
     <connection>scm:git:git@github.com:yunglin/common-jersey-jodatime.git</connection>
     <developerConnection>scm:git:git@github.com:yunglin/common-jersey-jodatime.git</developerConnection>
     <url>https://github.com/yunglin/common-jersey-jodatime</url>
-    <tag>jersey-jodatime-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
 
