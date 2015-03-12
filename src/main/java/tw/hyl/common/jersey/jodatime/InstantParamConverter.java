@@ -4,7 +4,7 @@ import org.joda.time.Instant;
 
 import javax.ws.rs.ext.ParamConverter;
 
-class InstantParamConverter implements ParamConverter<Instant> {
+public class InstantParamConverter implements ParamConverter<Instant> {
     @Override
     public Instant fromString(String value) {
         return new Instant(value);

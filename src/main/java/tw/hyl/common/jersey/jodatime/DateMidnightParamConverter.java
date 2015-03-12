@@ -6,7 +6,7 @@ import org.joda.time.format.ISODateTimeFormat;
 
 import javax.ws.rs.ext.ParamConverter;
 
-class DateMidnightParamConverter implements ParamConverter<DateMidnight> {
+public class DateMidnightParamConverter implements ParamConverter<DateMidnight> {
 
     final static DateTimeFormatter parser = ISODateTimeFormat.localDateParser();
 
@@ -15,7 +15,7 @@ class DateMidnightParamConverter implements ParamConverter<DateMidnight> {
 
     @Override
     public DateMidnight fromString(String value) {
-            return parser.parseLocalDate(value).toDateMidnight();
+        return parser.parseLocalDate(value).toDateMidnight();
     }
 
     @Override

@@ -6,7 +6,7 @@ import org.joda.time.format.ISODateTimeFormat;
 
 import javax.ws.rs.ext.ParamConverter;
 
-class LocalDateParamConverter implements ParamConverter<LocalDate> {
+public class LocalDateParamConverter implements ParamConverter<LocalDate> {
 
     final static DateTimeFormatter parser = ISODateTimeFormat.localDateOptionalTimeParser();
 

@@ -4,7 +4,7 @@ import org.joda.time.Duration;
 
 import javax.ws.rs.ext.ParamConverter;
 
-class DurationParamConverter implements ParamConverter<Duration> {
+public class DurationParamConverter implements ParamConverter<Duration> {
     @Override
     public Duration fromString(String value) {
         return new Duration(value);

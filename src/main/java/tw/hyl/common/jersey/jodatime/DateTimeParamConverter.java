@@ -5,7 +5,7 @@ import org.joda.time.format.ISODateTimeFormat;
 
 import javax.ws.rs.ext.ParamConverter;
 
-class DateTimeParamConverter implements ParamConverter<DateTime> {
+public class DateTimeParamConverter implements ParamConverter<DateTime> {
     @Override
     public DateTime fromString(String value) {
         try {
